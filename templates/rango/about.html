@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}About{% endblock %}
+
+{% block body_block %}
+  <div class="hero-unit">
+      <h1>About</h1>
+
+      <p></strong>.</p>
+
+      <img width="90" height="100" src="{% static "images/rango.jpg" %}" alt="Picture of Rango"/>
+
+      <p>You have viewed this site: {{ visits }} times</p>
+
+      <button onClick="alert('You clicked the button using Javascript.');">
+        Click Me - I run JavaScript
+      </button>
+
+      <button id="about-btn">Click Me - I'm Javascript on Speed</button>
+      <p> This is an example</p>
+      <p> This is another example</p>
+
+      <div id="msg">Hello</div>
+
+  </div>
+{% endblock %}
