@@ -2,10 +2,14 @@ import json
 import urllib
 import http.client
 <<<<<<< HEAD
+<<<<<<< HEAD
 from rango.keys import BING_API_KEY
 =======
 from rango/keys import BING_API_KEY
 >>>>>>> f1eeb615651f4c7b1ccacb44f28a5951e9d08079
+=======
+from rango.keys import BING_API_KEY
+>>>>>>> 3368935f31eacca0eae7244bf9e285f9aa721fe0
 
 
 def run_query(search_terms):
